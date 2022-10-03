@@ -16,6 +16,7 @@
     "@rollup/plugin-commonjs": "^22.0.2",
     "@web/dev-server": "^0.1.34",
     "@web/rollup-plugin-html": "^1.11.0",
+    "commonjs-module": "file:commonjs-module",
     "rollup": "^2.79.1"
   }
 }
