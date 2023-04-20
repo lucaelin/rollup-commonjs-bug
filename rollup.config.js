@@ -4,7 +4,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import json from '@rollup/plugin-json';
 
 export default {
-  input: 'index.html',
+  input: './packages/index.html',
   output: { dir: 'dist' },
   plugins: [html(), json(), resolve(), commonjs()],
 };

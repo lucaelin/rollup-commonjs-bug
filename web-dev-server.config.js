@@ -8,6 +8,7 @@ const json = fromRollup(rollupJson);
 const resolve = fromRollup(rollupResolve);
 
 export default {
+  rootDir: './packages',
   plugins: [
     json(),
     resolve(),
