@@ -1,5 +1,5 @@
-# @web/dev-server + @rollup/plugin-commonjs + @web/dev-server-rollup bug
+# wds + commonjs + rootDir bug
 
 Run the example code using `npm start` and open the browser for the
-web-dev-server, the console should show an error message like
-`does not provide an export named 'exports'`
+web-dev-server, the network tab shows multiple system-absolute file paths being
+requested by the browser. Non commonjs imports work just fine.
