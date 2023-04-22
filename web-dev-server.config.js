@@ -6,6 +6,10 @@ const commonjs = fromRollup(rollupCommonjs);
 export default {
   rootDir: './packages',
   plugins: [
-    commonjs(), 
+    commonjs({
+      esmExternals: true,
+      include: '**/node_modules/**/*',
+      extensions: ['.js']
+    }), 
   ],
 };

@@ -5,5 +5,5 @@ console.log('entry');
 //console.log(_);
 
 // this does not
-import u from 'unleash-proxy-client';
+import * as u from 'unleash-proxy-client';
 console.log(u);
